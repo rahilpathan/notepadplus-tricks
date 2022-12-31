@@ -3,9 +3,12 @@ Regex search tricks
 
 1)
 Search from a wild char to the end of the line.
+
 Example: * or / to the end of line
 [*/].*$
 
+Example: remove all wild chars to end line, commonly used in converting ublock filters to domains. Excluding * and @
+[/^$ ].*$
 
 2) Remove random lines matching certain characters
 Use search and bookmark the lines
