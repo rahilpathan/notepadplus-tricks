@@ -1,0 +1,13 @@
+Regex search tricks
+--------------------------------------------------------
+
+1)
+Search from a wild char to the end of the line.
+Example: * or / to the end of line
+[*/].*$
+
+
+2) Remove random lines matching certain characters
+Use search and bookmark the lines
+Then View -> Bookmark -> Remove bookmarked lines
+
