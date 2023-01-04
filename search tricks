@@ -8,9 +8,16 @@ Example: * or / to the end of line
 [*/].*$
 
 Example: remove all wild chars to end line, commonly used in converting ublock filters to domains. Excluding * and @
-[/^$ ].*$
+[/|^$/:].*$
+
+Search line ending with / at the end
+(\/)..*$
+
+Search line ending with . at the end
+(\.)$
+
 
 2) Remove random lines matching certain characters
 Use search and bookmark the lines
-Then View -> Bookmark -> Remove bookmarked lines
+Then Search -> Bookmark -> Remove bookmarked lines
 
